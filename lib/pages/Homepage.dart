@@ -31,6 +31,22 @@ class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+        floatingActionButton: RaisedButton(
+          color: HexColor("#a362ea"),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+          elevation: 0,
+          onPressed: () {},
+          child: Padding(
+              padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
+              child: Text(
+                '+ADD NEW TASK',
+                style: GoogleFonts.poppins(
+                    textStyle: TextStyle(
+                        color: Colors.white, fontWeight: FontWeight.w600)),
+              )),
+        ),
         bottomNavigationBar: CurvedNavigationBar(
           color: HexColor("#222429"),
           backgroundColor: Colors.white,
