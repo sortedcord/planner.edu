@@ -4,6 +4,13 @@ class Task {
   String category;
   String date;
   String time;
+  bool isCompleted;
 
-  Task({this.title, this.description, this.category, this.date, this.time});
+  Task(
+      {this.title,
+      this.description,
+      this.category,
+      this.date,
+      this.time,
+      this.isCompleted});
 }
