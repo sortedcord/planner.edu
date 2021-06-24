@@ -1,4 +1,4 @@
-# planner_edu
+# Planner.Edu
 
 Your all in one task manager
 
